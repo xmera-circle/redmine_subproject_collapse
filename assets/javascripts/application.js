@@ -7,11 +7,11 @@ function addProjectsListCollapse(){
 
     if($content1.length || $content2.length) {
       if($parent.hasClass('root')) {
-        $parent.prepend("<a href='#' class='expcolroot collapsible'></a>");
+        $parent.prepend("<a href='javascript:void(0);' class='expcolroot collapsible'></a>");
       } else {
         $content1.toggle();
         $content2.toggle();
-        $parent.prepend("<a href='#' class='expcolroot collapsible collapsed'></a>");
+        $parent.prepend("<a href='javascript:void(0);' class='expcolroot collapsible collapsed'></a>");
       }
     } else {
       if(!$parent.hasClass('root')) {
@@ -34,7 +34,7 @@ function addSubprojectListCollapse(){
   $subprojects.addClass('collabsible');
   $('div#projects-index').prepend("<a href='#' class='toggle-subprojects'>Alle einklappen/Alle ausklappen</a>");
   $toggle = $('a.toggle-subprojects');
-  $toggle.click(function () {
+  $toggle.click(function(){
     $subprojects.toggleClass('collapsed');
     $subprojects.toggle('collapsed');
   });
