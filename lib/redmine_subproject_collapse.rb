@@ -1,0 +1,1 @@
+require 'redmine_subproject_collapse/subproject_hook_listener'
