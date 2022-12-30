@@ -23,7 +23,7 @@ function addProjectsListCollapse(){
   $("a.expcolroot").click(function(){
     $header = $(this);
     $header.toggleClass("collapsed")
-    $header.toggleClass("icon-expanded icon-collapsed")
+    $header.toggleClass("icon-expanded icon-expended icon-collapsed")
     $content1 = $header.parent().next("ul");
     $content2 = $header.parent().children(".description");
     $content1.toggle();
