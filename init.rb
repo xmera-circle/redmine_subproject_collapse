@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require File.expand_path('lib/redmine_subproject_collapse', __dir__)
 
 Redmine::Plugin.register :redmine_subproject_collapse do

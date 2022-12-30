@@ -1,5 +1,10 @@
+# frozen_string_literal: true
+
 module RedmineSubprojectCollapse
   module Hooks
+    ##
+    # Integrate javascript and stylesheets
+    #
     class SubprojectHookListener < Redmine::Hook::ViewListener
       include ActionView::Helpers::TagHelper
 
