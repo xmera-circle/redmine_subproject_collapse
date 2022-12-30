@@ -2,7 +2,7 @@
 
 This plugin lets any user toggle subprojects
 
-![Redmine Plugin Version](https://img.shields.io/badge/Redmine_Plugin-v1.0.0-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v5.0.x-blue) ![Language Support](https://img.shields.io/badge/Languages-en,_de,_pl,_fr,_ja-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
+![Redmine Plugin Version](https://img.shields.io/badge/Redmine_Plugin-v0.2.0-red) ![Redmine Version](https://img.shields.io/badge/Redmine-v5.0.x-blue) ![Language Support](https://img.shields.io/badge/Languages-en,_de,_pl,_fr,_ja-green) ![Version Stage](https://img.shields.io/badge/Stage-release-important)
 
 The Redmine Subproject Collapse plugin is a Redmine plugin and allows to expand and collapse subprojects.
 

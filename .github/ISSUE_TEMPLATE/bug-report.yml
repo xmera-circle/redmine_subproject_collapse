@@ -70,7 +70,7 @@ body:
       options:
         - 0.0.1
         - 0.1.0
-        - 1.0.0 (Latest)
+        - 0.2.0 (Latest)
     validations:
       required: true
   - type: dropdown

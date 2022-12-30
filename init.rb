@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_subproject_collapse do
   name 'Sub Projects Collapse Plugin'
   author 'Anton Sergeev, Liane Hampe, xmera Solutions GmbH'
   description 'This plugin provides ability to collapse sub projects'
-  version '1.0.0'
+  version '0.2.0'
   url 'https://circle.xmera.de/projects/redmine-subproject-collapse'
   author_url 'https://github.com/liaham'
 
