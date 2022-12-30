@@ -10,5 +10,5 @@ Redmine::Plugin.register :redmine_subproject_collapse do
   url 'https://circle.xmera.de/projects/redmine-subproject-collapse'
   author_url 'https://github.com/liaham'
 
-  requires_redmine version_or_higher: '5.0.3'
+  requires_redmine version_or_higher: '4.2'
 end
