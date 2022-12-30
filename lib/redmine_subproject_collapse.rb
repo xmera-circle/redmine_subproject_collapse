@@ -1,1 +1,1 @@
-require 'redmine_subproject_collapse/subproject_hook_listener'
+require_relative 'redmine_subproject_collapse/hooks/subproject_hook_listener'

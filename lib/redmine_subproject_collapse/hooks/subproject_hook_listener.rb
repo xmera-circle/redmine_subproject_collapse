@@ -1,4 +1,4 @@
-module RedminePluginWithAssets
+module RedmineSubprojectCollapse
   module Hooks
     class SubprojectHookListener < Redmine::Hook::ViewListener
       include ActionView::Helpers::TagHelper

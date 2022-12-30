@@ -1,4 +1,4 @@
-require_dependency 'redmine_subproject_collapse'
+require File.expand_path('lib/redmine_subproject_collapse', __dir__)
 
 Redmine::Plugin.register :redmine_subproject_collapse do
   name 'Sub Projects Collapse Plugin'
