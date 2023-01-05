@@ -1,1 +1,3 @@
-require 'redmine_subproject_collapse/subproject_hook_listener'
+# frozen_string_literal: true
+
+require_relative 'redmine_subproject_collapse/hooks/subproject_hook_listener'

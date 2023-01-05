@@ -1,3 +1,7 @@
 #projects-index li.root ul.projects {
   display: none;
+  border-left: 0;
+}
+.toggle-subprojects-container {
+  margin-bottom: 15px;
 }
